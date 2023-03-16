@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/innovation-mind-prototype/static/css/main.d7dc3e8a.css",
-    "main.js": "/innovation-mind-prototype/static/js/main.373dd0ad.js",
+    "main.js": "/innovation-mind-prototype/static/js/main.a72ffe86.js",
     "index.html": "/innovation-mind-prototype/index.html",
     "main.d7dc3e8a.css.map": "/innovation-mind-prototype/static/css/main.d7dc3e8a.css.map",
-    "main.373dd0ad.js.map": "/innovation-mind-prototype/static/js/main.373dd0ad.js.map"
+    "main.a72ffe86.js.map": "/innovation-mind-prototype/static/js/main.a72ffe86.js.map"
   },
   "entrypoints": [
     "static/css/main.d7dc3e8a.css",
-    "static/js/main.373dd0ad.js"
+    "static/js/main.a72ffe86.js"
   ]
 }
