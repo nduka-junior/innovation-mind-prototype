@@ -4,17 +4,19 @@ import Home from "./pages/Home";
 import Query from "./pages/Query";
 import ContextProvider from "./data/ContextProvider";
 // router initialization
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/data",
-    element: <Query />,
-  },
-]);
-
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/data",
+      element: <Query />,
+    },
+  ],
+  { basename: "/" }
+);
 
 function App() {
   return (
@@ -24,6 +26,5 @@ function App() {
       </ContextProvider>
     </div>
   );
-
 }
 export default App;
