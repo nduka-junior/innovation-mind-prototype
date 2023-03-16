@@ -8,7 +8,7 @@ function Home() {
       <div>
           <Nav />
           <SelectLang />
-          <Query />
+         
     </div>
   )
 }
