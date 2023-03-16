@@ -7,7 +7,7 @@ import ContextProvider from "./data/ContextProvider";
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/home",
       element: <Home />,
     },
     {
