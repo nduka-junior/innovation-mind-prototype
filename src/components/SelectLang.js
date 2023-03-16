@@ -16,7 +16,7 @@ function SelectLang() {
   const handleLangRedirect = () => {
       if (lang) {
         console.log(lang);
-        return navigate("/data");
+        return navigate("/innovation-mind-prototype/data");
       }
       alert("Please select a language");
   };

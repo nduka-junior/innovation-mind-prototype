@@ -10,11 +10,11 @@ function App() {
   const router = createBrowserRouter(
     [
       {
-        path: "/",
+        path: "/innovation-mind-prototype",
         element: <Home />,
       },
       {
-        path: "/data",
+        path: "/innovation-mind-prototype/data",
         element: <Query />,
       },
       {
@@ -22,7 +22,7 @@ function App() {
         element: <Error />,
       },
     ],
-    { basename: "/" }
+    { basename: "/innovation-mind-prototype" }
   );
   return (
     <div className="App">

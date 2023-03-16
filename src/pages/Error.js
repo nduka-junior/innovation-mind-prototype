@@ -17,12 +17,8 @@ function Error() {
       <h5>No results found!</h5>
       <p>Unfortunately we couldn't find any product.</p>
       <br />
-      <Button variant="outlined" >
-        <Link
-          to="/"
-        >
-          Home
-        </Link>
+      <Button variant="outlined">
+        <Link to="/innovation-mind-prototype">Home</Link>
       </Button>
     </div>
   );
