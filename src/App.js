@@ -22,7 +22,7 @@ function App() {
         element: <Error />,
       },
     ],
-    { basename: "/innovation-mind-prototype" }
+    { basename: "/" }
   );
   return (
     <div className="App">
