@@ -10,7 +10,12 @@ The Multilingual Book-based Information Retrieval System is an AI-powered tool t
 
 ### **Video Link**
 
-[Video link](https://drive.google.com/drive/folders/1AtWk4PhwaN3GCegNQeRYW1Y_YaA5-1wG?usp=sharing)
+[Video Link](https://drive.google.com/drive/folders/1AtWk4PhwaN3GCegNQeRYW1Y_YaA5-1wG?usp=sharing)
+
+### **Code Link**
+
+[Code Link](https://github.com/nduka-junior/innovation-mind-prototype/blob/main/src/Static/Backend_code.ipynb)
+
 
 # **About**
 
