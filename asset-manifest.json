@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/innovation-mind-prototype/static/css/main.48e77f9a.css",
-    "main.js": "/innovation-mind-prototype/static/js/main.4411fc81.js",
+    "main.css": "/innovation-mind-prototype/static/css/main.39ce12b1.css",
+    "main.js": "/innovation-mind-prototype/static/js/main.08c8f074.js",
     "static/media/standing.png": "/innovation-mind-prototype/static/media/standing.b5623a26fde6de69d933.png",
+    "static/media/s.png": "/innovation-mind-prototype/static/media/s.98f84efe3e6c66aa9840.png",
     "index.html": "/innovation-mind-prototype/index.html",
-    "main.48e77f9a.css.map": "/innovation-mind-prototype/static/css/main.48e77f9a.css.map",
-    "main.4411fc81.js.map": "/innovation-mind-prototype/static/js/main.4411fc81.js.map"
+    "main.39ce12b1.css.map": "/innovation-mind-prototype/static/css/main.39ce12b1.css.map",
+    "main.08c8f074.js.map": "/innovation-mind-prototype/static/js/main.08c8f074.js.map"
   },
   "entrypoints": [
-    "static/css/main.48e77f9a.css",
-    "static/js/main.4411fc81.js"
+    "static/css/main.39ce12b1.css",
+    "static/js/main.08c8f074.js"
   ]
 }
