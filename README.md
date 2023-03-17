@@ -8,7 +8,7 @@ The Multilingual Book-based Information Retrieval System is an AI-powered tool t
 ### **Prensentation**
 [Presentation](https://drive.google.com/file/d/1kZMPLETreDFc-2GroSoP1c7v2iejuE_s/view?usp=share_link )
 
-Our system uses natural language processing and machine learning algorithms to search for information on your specific topic, based on your input keywords or sentences. And with our translation feature, you can even translate the retrieved information and references into a language of your choice, making it easier than ever to access the knowledge you need.
+
 
 # **About**
 
