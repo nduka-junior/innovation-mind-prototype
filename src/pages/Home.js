@@ -6,9 +6,9 @@ import ImageSide from '../components/ImageSide';
 
 function Home() {
   return (
-    <div>
+    <div >
       <Nav />
-      <div className='image_pos'>
+      <div className="image_pos">
         <ImageSide />
         <SelectLang />
       </div>

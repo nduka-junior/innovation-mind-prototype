@@ -1,11 +1,12 @@
 import React from 'react'
-
+import logo from "../Static/Image/s.png"
 function Nav() {
   return (
-      <div style={{marginBottom:"30px",textAlign:"center"}}>
-          <h2>Innovation Mind</h2>
+    <div  className="logo">
+      <img src={logo} alt="logo" />
+      <span>Innovation Mind</span>
     </div>
-  )
+  );
 }
 
 export default Nav

@@ -19,8 +19,8 @@ function Query() {
             <TextField
               id="standard-basic"
               label="Search"
-              variant="standard"
-              style={{ width: "100%" }}
+              style={{ width: "100%" ,color : "white"}}
+              sx={{mt :2}}
             />
           </div>
         </div>

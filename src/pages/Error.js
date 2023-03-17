@@ -14,8 +14,8 @@ function Error() {
     >
       <h1>404 Error</h1>
       <br />
-      <h5>No results found!</h5>
-      <p>Unfortunately we couldn't find any product.</p>
+      <h3>No results found!</h3>
+     
       <br />
       <Button variant="outlined">
         <Link to="/innovation-mind-prototype">Home</Link>
