@@ -1,39 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
 .App {
   text-align: left;
-  padding: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image_pos {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  grid-template-columns: 1fr;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #407c66;
+  align-items: center;
+
+  padding: 0 40px;
+  height: 94vh;
+}
+
+.image_side > img {
+  width: 100%;
+  height: 100%;
+}
+.select_lang {
   color: white;
+  width: 90%;
 }
-
-.App-link {
-  color: #61dafb;
+.select_lang label{
+  color: white;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.MuiBox-root{
+  display: flex;
+}
+.query{
+  background-color: #407c66;
+  height: 100vh;
+  color: white;
+  padding:  40px;
+}
+@media only screen and (min-width: 790px) {
+  .image_pos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: transparent;
+    height: 90vh;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
+  .image_side {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+  }
+  .image_side_color {
+    background-color: #407c66;
+    clip-path: circle(56.5% at 9% 53%);
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+  }
+  .image_side > img {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: -400px;
+  }
+  .select_lang,.select_lang label,.bttnn{
+    color: #407c66!important;
   }
 }

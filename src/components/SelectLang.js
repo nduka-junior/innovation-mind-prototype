@@ -214,9 +214,9 @@ function SelectLang() {
     { code: "zu", name: "Zulu" },
   ];
   return (
-    <div>
-      <h3>Please select a prefered lanaguage</h3>
-      <Box sx={{ minWidth: 120, mt: 2, ml: 3 }}>
+    <div className="select_lang">
+      <h1>Please select a prefered lanaguage</h1>
+      <Box sx={{ minWidth: 100, mt: 2, ml: 3 }}>
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">
             Select a Language
@@ -239,7 +239,7 @@ function SelectLang() {
             })}
           </Select>
         </FormControl>
-        <Button variant="outlined" onClick={handleLangRedirect}>
+        <Button  variant="outlined" sx={{color:"white",ml:"10px"}} onClick={handleLangRedirect} className="bttnn">
           Submit
         </Button>
       </Box>

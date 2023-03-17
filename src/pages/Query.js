@@ -7,8 +7,9 @@ import Nav from "../components/Nav";
 function Query() {
   const { lang } = useLanguage();
   return (
-    <div>
+    <div className="query">
       <Nav />
+      
       {lang ? (
         <div>
           <h3>Your prefered language is {lang}</h3>
